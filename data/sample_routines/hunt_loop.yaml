@@ -1,0 +1,15 @@
+name: hunt_loop
+description: |
+  Attended hunt skeleton. Rebuff, enable combat, heal if needed.
+  Swap the nav name for whatever .nav you already have in VirindiTank.
+steps:
+  - log: "attended hunt — keep a hand on the keyboard"
+  - compose: buff_cycle.yaml
+  - when:
+      vitals.health_below: 0.7
+    steps:
+      - compose: heal_check.yaml
+  - nav: outdoor_hunt
+  - combat: default
+  - vt: "opt set enablelooting true"
+  - log: "combat + loot + nav requested"

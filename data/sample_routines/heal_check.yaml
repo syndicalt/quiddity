@@ -1,0 +1,15 @@
+name: heal_check
+description: One-shot vital check. Cast or use kits if health is low.
+steps:
+  - log: "checking vitals"
+  - when:
+      vitals.health_below: 0.5
+    steps:
+      - heal: self
+      - log: "heal policy fired"
+  - when:
+      vitals.mana_below: 0.3
+    steps:
+      - ub: "use Mana Stone"
+      - log: "mana stone"
+  - heal: fellow

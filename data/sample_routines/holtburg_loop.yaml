@@ -1,0 +1,9 @@
+name: holtburg_loop
+description: Wrap a VTank nav + combat hold near Holtburg. Does not invent waypoints.
+steps:
+  - log: "load outdoor loop around Holtburg"
+  - compose: buff_cycle.yaml
+  - nav: holtburg_lifestone
+  - combat: hold
+  - set: {combat: true, nav: true}
+  - chat: "/f on loop at HB lifestone"

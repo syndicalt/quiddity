@@ -1,0 +1,9 @@
+name: buff_cycle
+description: Enable VTank buffing and request missing life + creature self spells.
+steps:
+  - log: "starting buff cycle"
+  - set: {buffing: true}
+  - buff: creature
+  - buff: life
+  - buff: item
+  - log: "buff cycle queued"
