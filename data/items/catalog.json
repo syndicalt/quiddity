@@ -1,0 +1,56 @@
+[
+  {
+    "id": 35981,
+    "wcid": 35981,
+    "name": "Shadowfire Isparian Wand",
+    "weenie_type": "caster",
+    "skill": "War Magic",
+    "damage": "16.2",
+    "damage_type": "Nether",
+    "slayer": "Shadow",
+    "spells": ["Spirit Drinker VI", "Spirit Loather VI"],
+    "notes": "Isparian shadowfire caster. Nether damage. Strong vs Shadows; swap off against olthoi.",
+    "wiki": "https://asheron.fandom.com/wiki/Shadowfire_Isparian_Wand"
+  },
+  {
+    "id": 24027,
+    "wcid": 24027,
+    "name": "Aerbax's Defeat",
+    "weenie_type": "caster",
+    "notes": "Quest reward caster from the Aerbax storyline."
+  },
+  {
+    "id": 30513,
+    "wcid": 30513,
+    "name": "Noble Relic Coat of Brilliance",
+    "weenie_type": "armor",
+    "set_name": "Noble Relic",
+    "armor_level": 430,
+    "notes": "Clutch of Kings reward. Focus cantrip (Inner Brilliance)."
+  },
+  {
+    "id": 3715,
+    "wcid": 3715,
+    "name": "Olthoi Helm",
+    "weenie_type": "armor",
+    "notes": "High acid protection. Prefer over set helms when hunting olthoi.",
+    "dropped_by": ["Olthoi"]
+  },
+  {
+    "id": 21961,
+    "wcid": 21961,
+    "name": "Hollow Sword",
+    "weenie_type": "melee_weapon",
+    "notes": "Hollow weapons ignore creature armor."
+  },
+  {
+    "id": 11140,
+    "wcid": 11140,
+    "name": "Olthoi Egg",
+    "weenie_type": "craft",
+    "dropped_by": ["Olthoi"],
+    "used_in": ["Pickled Olthoi Egg", "Olthoi Toast", "Olthoi Pumpkin Pie"]
+  },
+  {"id": 4761, "name": "Flour", "weenie_type": "craft", "used_in": ["Dough"]},
+  {"id": 4746, "name": "Water", "weenie_type": "craft", "used_in": ["Dough"]}
+]

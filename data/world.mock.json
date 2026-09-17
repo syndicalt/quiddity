@@ -1,0 +1,59 @@
+{
+  "source": "mock",
+  "combat_enabled": false,
+  "nav_enabled": false,
+  "buffing_enabled": true,
+  "character": {
+    "name": "Aerbax-Bait",
+    "level": 126,
+    "heritage": "Aluvian",
+    "template": "War Mage",
+    "health": {"current": 210, "max": 320},
+    "stamina": {"current": 240, "max": 280},
+    "mana": {"current": 410, "max": 620},
+    "burden_pct": 0.42,
+    "in_combat": false,
+    "fellowship": ["TankOne", "HealerTwo"],
+    "skills": [
+      {"name": "War Magic", "trained": "specialized", "base": 340, "buffed": 430},
+      {"name": "Life Magic", "trained": "trained", "base": 280, "buffed": 360},
+      {"name": "Mana Conversion", "trained": "specialized", "base": 310, "buffed": 390},
+      {"name": "Alchemy", "trained": "trained", "base": 180, "buffed": 180},
+      {"name": "Cooking", "trained": "trained", "base": 90, "buffed": 90}
+    ],
+    "buffs": [
+      {"name": "Focus Self", "family": "creature", "seconds_left": 1400},
+      {"name": "Willpower Self", "family": "creature", "seconds_left": 1380}
+    ],
+    "position": {"ns": 42.1, "ew": 33.6, "z": 32.0, "landblock": "0xC6A90016", "heading": 90.0, "indoors": false}
+  },
+  "selected": {
+    "id": 35981, "wcid": 35981, "name": "Shadowfire Isparian Wand", "weenie_type": "caster",
+    "qty": 1, "value": 10000, "burden": 150, "skill": "War Magic", "damage": "16.2", "damage_type": "Nether",
+    "slayer": "Shadow", "spells": ["Spirit Drinker VI"], "wield_req": "War Magic 350+"
+  },
+  "inventory": [
+    {"id": 35981, "wcid": 35981, "name": "Shadowfire Isparian Wand", "weenie_type": "caster", "equipped_slot": "weapon", "skill": "War Magic", "damage": "16.2", "damage_type": "Nether", "slayer": "Shadow"},
+    {"id": 24027, "wcid": 24027, "name": "Aerbax's Defeat", "weenie_type": "caster", "skill": "War Magic", "damage": "15.4", "damage_type": "Slash"},
+    {"id": 30513, "wcid": 30513, "name": "Noble Relic Coat of Brilliance", "weenie_type": "armor", "equipped_slot": "chest", "armor_level": 430, "coverage": ["chest", "upper_arms", "lower_arms"], "protections": {"slash": 1.4, "pierce": 1.4, "acid": 0.8}, "set_name": "Noble Relic", "spells": ["Inner Brilliance"]},
+    {"id": 30514, "wcid": 30514, "name": "Noble Relic Leggings of Health", "weenie_type": "armor", "equipped_slot": "upper_legs", "armor_level": 430, "coverage": ["abdomen", "upper_legs", "lower_legs"], "protections": {"slash": 1.4, "acid": 0.8}, "set_name": "Noble Relic"},
+    {"id": 30515, "wcid": 30515, "name": "Noble Relic Gauntlets of Speed", "weenie_type": "armor", "equipped_slot": "hands", "armor_level": 420, "coverage": ["hands"], "set_name": "Noble Relic"},
+    {"id": 30516, "wcid": 30516, "name": "Noble Relic Helm of Will", "weenie_type": "armor", "equipped_slot": "head", "armor_level": 420, "coverage": ["head"], "set_name": "Noble Relic"},
+    {"id": 30517, "wcid": 30517, "name": "Noble Relic Sollerets of Balance", "weenie_type": "armor", "armor_level": 420, "coverage": ["feet"], "set_name": "Noble Relic"},
+    {"id": 3715, "wcid": 3715, "name": "Olthoi Helm", "weenie_type": "armor", "armor_level": 400, "coverage": ["head"], "protections": {"acid": 2.0, "pierce": 1.6, "slash": 1.2}},
+    {"id": 21961, "wcid": 21961, "name": "Hollow Sword", "weenie_type": "melee_weapon", "skill": "Finesse Weapons", "damage": "12.0 - 24.0", "damage_type": "Slash"},
+    {"id": 4746, "name": "Water", "weenie_type": "craft", "qty": 40},
+    {"id": 4761, "name": "Flour", "weenie_type": "craft", "qty": 20},
+    {"id": 4755, "name": "Brine", "weenie_type": "craft", "qty": 8},
+    {"id": 11140, "name": "Olthoi Egg", "weenie_type": "craft", "qty": 3},
+    {"id": 4760, "name": "Baking Pan", "weenie_type": "tool", "qty": 1},
+    {"id": 5338, "name": "Health Kit", "weenie_type": "healer", "qty": 12},
+    {"id": 5339, "name": "Stamina Kit", "weenie_type": "healer", "qty": 8},
+    {"id": 2436, "name": "Mana Stone", "weenie_type": "mana_stone", "qty": 4}
+  ],
+  "nearby": [
+    {"id": 1, "name": "Lifestone", "kind": "lifestone", "distance": 3.2},
+    {"id": 2, "name": "Shopkeep Gunderson", "kind": "vendor", "distance": 8.1},
+    {"id": 3, "name": "Drudge Slinker", "kind": "creature", "distance": 24.0}
+  ]
+}

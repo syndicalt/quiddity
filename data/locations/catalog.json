@@ -1,0 +1,12 @@
+[
+  {"name": "Holtburg", "kind": "town", "ns": 42.1, "ew": 33.6, "landblock": "0xC6A90016", "aliases": ["HB", "holt"], "notes": "Aluvian starter town. Lifestone on the hill, vendors in the shop row, Facility Hub portal once flagged.", "vendors": ["Shopkeep", "Bowyer", "Archmage", "Blacksmith", "Healer"], "level_range": "1-20 nearby"},
+  {"name": "Cragstone", "kind": "town", "ns": 25.7, "ew": 43.4, "aliases": ["CS"], "notes": "Aluvian capital. Binder, mage tower, and a common mule drop.", "vendors": ["Archmage", "Bowyer", "Blacksmith"]},
+  {"name": "Rithwic", "kind": "town", "ns": 10.8, "ew": 58.3, "notes": "Bridge town east of Holtburg."},
+  {"name": "Facility Hub", "kind": "poi", "ns": 0.0, "ew": 0.0, "notes": "Leveling hub with portals to early-mid content.", "level_range": "10-80"},
+  {"name": "Olthoi Tunnels near Holtburg", "kind": "dungeon", "ns": 45.0, "ew": 32.0, "level_range": "20-40", "dangers": ["Olthoi Workers", "acid spit"], "notes": "Early olthoi. Bring acid protection."},
+  {"name": "Mite Maze", "kind": "dungeon", "ns": 41.1, "ew": 32.2, "level_range": "5-20", "dangers": ["Mites"], "notes": "Classic Holtburg dungeon just outside town."},
+  {"name": "Zaikhal", "kind": "town", "ns": 13.8, "ew": 0.1, "notes": "Gharu'ndim capital. Diyas al-Yat lives here.", "vendors": ["Diyas al-Yat", "Archmage"]},
+  {"name": "Ayan Baqur", "kind": "town", "ns": 59.9, "ew": -87.2, "aliases": ["Ayan", "AB"], "notes": "West Direlands town.", "level_range": "80+"},
+  {"name": "Candeth Keep", "kind": "town", "ns": 87.5, "ew": -67.0, "aliases": ["CK"], "notes": "South Direlands fortress.", "level_range": "80+"},
+  {"name": "Dark Isle", "kind": "poi", "ns": 85.0, "ew": 4.0, "level_range": "140+", "dangers": ["Undead", "Mukkir"], "notes": "Flagged high-level island."}
+]
